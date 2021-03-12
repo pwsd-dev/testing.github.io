@@ -1,0 +1,28 @@
+.banner{
+    .page__title-h1{
+      font-size: 207.036px;
+    //   .laptopMd(font-size, 152.65px);
+    //   .xs(font-size,67.4918px);
+    }
+    .page__text{
+        
+    };
+    &.animated{
+        .page__title-h1 {
+            .animated({
+                .fadeInRight();
+                // .repeat(2);
+            });
+        }
+        
+        .page__text{
+            .animated({
+                .lightSpeedInRight();
+                //.repeat(3);
+            }, 5s);
+        }
+        .page__text{
+            //.delay(.5s);
+        }
+    }
+}
