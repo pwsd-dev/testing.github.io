@@ -352,14 +352,14 @@ input:focus {
 .banner-slider .slick-arrow.slick-prev {
   position: absolute;
   left: 0px;
-  background-image: url(../assets/img/arrow-news-black.svg);
+  background-image: url(../assets/img/arrow-news.svg);
   background-repeat: no-repeat;
   background: transparent;
 }
 
 .banner-slider .slick-arrow.slick-next {
   right: 0;
-  background-image: url(../assets/img/arrow-news-black.svg);
+  background-image: url(../assets/img/arrow-news.svg);
   background-repeat: no-repeat;
   background: transparent;
 }
