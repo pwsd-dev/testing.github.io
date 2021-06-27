@@ -398,6 +398,27 @@ input:focus {
           transform: rotate(180deg);
 }
 
+.grids {
+  height: 36.45833vw;
+}
+
+.grids .grid-wrapper {
+  display: grid;
+  background-color: black;
+  height: 36.45833vw;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1.04167vw;
+}
+
+.grids .grid-wrapper .grid-item {
+  background-color: blueviolet;
+}
+
+.grids .grid-wrapper .grid-item-2 {
+  background-color: blueviolet;
+}
+
 @media screen and (max-width: 1550px) {
   .wrapper {
     padding-left: 0.78125vw;

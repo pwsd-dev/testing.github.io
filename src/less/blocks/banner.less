@@ -106,3 +106,32 @@
         //padding-top: 100%;
     }
 }
+
+.grids {
+    height: 700px;
+    .grid-wrapper {
+        display: grid;
+        background-color: black;
+        height: 700px;
+
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        // grid-template-columns: 30% 30% 30%;
+        // grid-template-rows: 30% 30% 30%;
+
+        // grid-template-rows: repeat(3, 1fr);
+        // grid-template-columns: repeat(3, 1fr);
+        // grid-gap: 20px;
+        // grid-template-rows: 160px 1fr 160px;
+        // grid-template-columns: 20% 1fr 15%;
+        grid-gap: 20px;
+        
+        .grid-item {
+            background-color: blueviolet;
+            &-2 {
+                background-color: blueviolet;
+            
+            }
+        }
+    }
+}
