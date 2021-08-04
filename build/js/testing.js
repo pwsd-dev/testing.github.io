@@ -1,6 +1,6 @@
 // Это я начал изучать js и писать его уже наконец-таки )
 
-'use strict';// - включил строгий режим (весь скрипт работает в современном режиме)
+// 'use strict';// - включил строгий режим (весь скрипт работает в современном режиме)
 
 // alert('ошибочка');
 
@@ -26,14 +26,14 @@
 // let age = 25;
 // let message = 'Hello!';
 
-const notchange = 'неизменная переменная';
+// const notchange = 'неизменная переменная';
 
-let admin = 'John';
+// let admin = 'John';
 
-let name = 'John';
+// let name = 'John';
 
-// alert(admin);
+// // alert(admin);
 
-let ourPlanet = 'Земля';
+// let ourPlanet = 'Земля';
 
-let nameUser = '';
+// let nameUser = '';

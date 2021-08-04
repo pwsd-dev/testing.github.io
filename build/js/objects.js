@@ -1,19 +1,19 @@
-let user = {
-    'name': 'John',
-    'surname': 'Smith',
+// let user = {
+//     'name': 'John',
+//     'surname': 'Smith',
 
-};
+// };
 
-user.name = 'Pete';
+// user.name = 'Pete';
 
-delete user.name;
+// delete user.name;
 
 
 
 
 /* ниже приведены два примера функцций, где если у объекта нет свойств, то будет возвращать true */
 
-/*Ниже мой, не знаю, рабочий ли он 
+/*Ниже мой, не знаю, рабочий ли он
 function isEmpty(obj) {
     if (obj == '') {
         return true;
@@ -25,7 +25,7 @@ function isEmpty(obj) {
 */
 
 
-/* 
+/*
 function isEmpty(obj) {
     for (let key in obj) {
         return false;
@@ -41,7 +41,7 @@ function isEmpty(obj) {
 
 
 /* нужно получить сумму ключей */
-/* 
+/*
 let salaries = {
     John: 100,
     Ann: 160,
@@ -65,24 +65,24 @@ alert(sum);
 
 
 
-let menu = {
-    width: 200,
-    height: 300,
-    title: "My menu"
-};
+// let menu = {
+//     width: 200,
+//     height: 300,
+//     title: "My menu"
+// };
 
 
-multiplyNumeric(menu);
+// multiplyNumeric(menu);
 
-function multiplyNumeric(obj) {
+// function multiplyNumeric(obj) {
 
-    for (let key in obj) {
-        if (typeof obj[key] == 'number') {
-            obj[key] *= 2;
-        }
-    }
-}
-// alert(menu.height);
+//     for (let key in obj) {
+//         if (typeof obj[key] == 'number') {
+//             obj[key] *= 2;
+//         }
+//     }
+// }
+// // alert(menu.height);
 
 
 
