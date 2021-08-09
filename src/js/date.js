@@ -39,14 +39,14 @@
 
 // console.log(`Цикл отработал за ${end - start} миллисекунд`);
 
-let start = Date.now();
+// let start = Date.now();
 
-for (let i = 0; i < 100000; i++) {
+// for (let i = 0; i < 100000; i++) {
 
-    let some = i * i;
-}
+//     let some = i * i;
+// }
 
-let end = Date.now();
+// let end = Date.now();
 
-console.log(`Цикл отработал за ${end - start} миллисекунд`);
+// console.log(`Цикл отработал за ${end - start} миллисекунд`);
 
