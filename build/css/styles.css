@@ -213,6 +213,10 @@ body {
   font-family: 'OpenSans-Regular';
 }
 
+body .modal.active {
+  overflow: hidden;
+}
+
 a,
 button {
   cursor: pointer;
@@ -417,6 +421,57 @@ input:focus {
 
 .grids .grid-wrapper .grid-item-2 {
   background-color: blueviolet;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  opacity: 0;
+  visibility: hidden;
+  overflow-y: auto;
+  overflow-x: hidden;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+
+.modal.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.modal-wrapper {
+  min-height: 100%;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+          justify-content: center;
+  padding: 1.5625vw 0.52083vw;
+}
+
+.modal-content {
+  position: relative;
+  background-color: blueviolet;
+  color: #fff;
+  max-width: 31.25vw;
+  padding: 1.5625vw;
+}
+
+.modal-content a {
+  text-decoration: none;
+  color: #000;
+}
+
+.modal-close {
+  position: absolute;
+  right: 0.52083vw;
+  top: 0.52083vw;
+  font-size: 1.04167vw;
 }
 
 @media screen and (max-width: 1550px) {

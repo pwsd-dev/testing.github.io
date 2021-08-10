@@ -10,6 +10,11 @@ function sumTo(n) {
     return result;
 }
 
+console.log(sumTo(4));
+
+
+
+
 // function sumTo(n) {
 //     let sum = 0;
 
@@ -22,7 +27,6 @@ function sumTo(n) {
 
 // alert(sumTo(4));
 
-console.log(sumTo(4));
 
 // function sumToRecurse(n) {
 //     if (n == 1) {

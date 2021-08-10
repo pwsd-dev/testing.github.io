@@ -1,0 +1,57 @@
+.modal {
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    background-color: rgba(0, 0, 0, 0.4);
+
+    opacity: 0;
+    visibility: hidden;
+    overflow-y: auto;
+    overflow-x: hidden;
+    transition: .5s ease;
+
+    &.active {
+
+        opacity: 1;
+        visibility: visible;
+
+    }
+
+    &-wrapper {
+
+        min-height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 30px 10px;
+        
+        
+    }
+
+    &-content {
+
+        position: relative;
+        background-color: blueviolet;
+        color: #fff;
+        max-width: 600px;
+        padding: 30px;
+
+        a {
+            text-decoration: none;
+            color: #000;
+        }
+    }
+
+    &-close {
+
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        font-size: 20px;
+    }
+
+}
