@@ -1,3 +1,7 @@
+// Ниже написана функция, которая вычисляет сумму чисел до данного (n), 
+// например sumTo(4) - 4 + 3 + 2 + 1 = 10
+
+
 function sumTo(n) {
 
     let result = 0;
@@ -13,27 +17,45 @@ function sumTo(n) {
 console.log(sumTo(4));
 
 
+// Ниже я написал функцию с применением рекурсии, которая вычисляет сумму чисел до данного (n);
+
+function sumToRecurse(n) {
 
 
-// function sumTo(n) {
-//     let sum = 0;
+    if (n == 1) {
 
-//     for (let i = 1; i <= n; i++) {
-//         sum += i;
-//     }
+        return n;
 
-//     return sum;
-// }
+    } else {
 
-// alert(sumTo(4));
+        return n + sumToRecurse(n - 1);
+
+    }
+
+    // с Самого начала, т.е. от 4, попадает во вторую ветку
+    // n плюсуется с этой же функцией, но n уменьшается
+    // пока не прийдет в первую ветку и не вернет n == 1;
+    //после того, как вернет один, функция прекратит работу
+
+}
+
+console.log(sumToRecurse(4));
 
 
-// function sumToRecurse(n) {
-//     if (n == 1) {
-//         return n;
-//     } else {
+//Ниже написана функция, которая вычисляет факториал
+//т.е. перемножает число на себя минус один
+// 5 = 5 * 4 * 3 * 2 * 1 = 120
 
-//     }
+function factorial(n) {
 
-// }
+    if (n == 1) {
 
+        return n;
+
+    } else {
+
+        return n * factorial(n - 1);
+    }
+}
+
+console.log(factorial(5));
