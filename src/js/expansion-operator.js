@@ -88,14 +88,14 @@
 // в первой функции (a, b)
 
 
-function inBetween(a, b) {
+// function inBetween(a, b) {
 
-    return function (n) {
-        return n >= a && n <= b;
-    };
+//     return function (n) {
+//         return n >= a && n <= b;
+//     };
 
-}
+// }
 
-let arr = [1, 2, 3, 4, 5, 6, 7];
+// let arr = [1, 2, 3, 4, 5, 6, 7];
 
-console.log(arr.filter(inBetween(2, 4)));
+// console.log(arr.filter(inBetween(2, 4)));
