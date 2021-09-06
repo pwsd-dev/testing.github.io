@@ -32,14 +32,14 @@ function printNumbers(from, to) {
     //     return;
     // }
 
-    return function (n) {
-        return n >= from && n <= to;
-    }
+//     return function (n) {
+//         return n >= from && n <= to;
+//     }
 
-}
+// }
 
-// printNumbers(1, 5);
+// // printNumbers(1, 5);
 
-let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
-console.log(arr.filter(printNumbers(1, 5)))
+// console.log(arr.filter(printNumbers(1, 5)))
