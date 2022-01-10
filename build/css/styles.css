@@ -423,6 +423,12 @@ input:focus {
   background-color: blueviolet;
 }
 
+.SomeBlocks .divMe {
+  width: 15.625vw;
+  height: 15.625vw;
+  background-color: cornsilk;
+}
+
 .modal {
   position: fixed;
   top: 0;
