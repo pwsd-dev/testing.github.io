@@ -1,4 +1,4 @@
-function printNumbers(from, to) {
+// function printNumbers(from, to) {
 
     // from = [];
     // to = [1, 2, 3, 4, 5];
