@@ -429,6 +429,58 @@ input:focus {
   background-color: cornsilk;
 }
 
+.wrapper-blocks {
+  height: 36.45833vw;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
+}
+
+.wrapper-blocks .block-header {
+  display: -webkit-box;
+  display: flex;
+  height: 5.20833vw;
+  background-color: cyan;
+}
+
+.wrapper-blocks .block-mid {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
+  -webkit-box-flex: 1;
+          flex-grow: 1;
+}
+
+.wrapper-blocks .block-mid-left {
+  background-color: darkgoldenrod;
+  -webkit-box-flex: 0.4;
+          flex-grow: 0.4;
+}
+
+.wrapper-blocks .block-mid-center {
+  -webkit-box-flex: 1;
+          flex-grow: 1;
+  background-color: darkgreen;
+}
+
+.wrapper-blocks .block-mid-right {
+  -webkit-box-flex: 0.4;
+          flex-grow: 0.4;
+  background-color: darkmagenta;
+}
+
+.wrapper-blocks .block-bottom {
+  height: 5.20833vw;
+  display: -webkit-box;
+  display: flex;
+  background-color: darkolivegreen;
+}
+
 .modal {
   position: fixed;
   top: 0;

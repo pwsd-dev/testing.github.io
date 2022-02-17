@@ -12,7 +12,8 @@
   "license": "ISC",
   "dependencies": {
     "jquery": "^3.6.0",
-    "normalize.css": "^8.0.1"
+    "normalize.css": "^8.0.1",
+    "typescript": "^4.5.5"
   },
   "devDependencies": {
     "browser-sync": "^2.26.14",
